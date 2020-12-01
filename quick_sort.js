@@ -37,3 +37,5 @@ const quickSort = function(data, start, end) {
 quickSort(numArray, 0, numArray.length - 1);
 
 console.log(numArray);
+
+// Quick Sort is also O(N * logN), but some situation, it causes O(N^2).
