@@ -1,6 +1,6 @@
 // // Sort the number (1 10 5 8 7 6 4 3 2 9)
 
-let numArray = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9];
+let numArray = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9, 12, 13];
 
 // Change the data structure into Heap structure
 for (let i = 1; i < numArray.length; i++) {
@@ -38,7 +38,6 @@ for (let i = numArray.length - 1; i >= 0; i--) {
     root = c;
   } while (c < i);
 };
-
 console.log(numArray);
 
 // Heap Sort is O(N * logN), and it is efficiency way since it is not using extra array and always keep O(N * logN).
