@@ -40,3 +40,5 @@ for (let i = numArray.length - 1; i >= 0; i--) {
 };
 
 console.log(numArray);
+
+// Heap Sort is O(N * logN), and it is efficiency way since it is not using extra array and always keep O(N * logN).
